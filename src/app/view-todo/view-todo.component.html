@@ -1,0 +1,22 @@
+<table class="table table-bordered border-success">
+    <thead>
+      <tr>
+        <th scope="col">User Id</th>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Complete Status</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let i of data">
+      
+      <th scope="row">{{i.userId}}</th>
+        <td>{{i.id}}</td>
+        <td>{{i.title}}</td>
+        <td>{{i.completed}}</td>
+        
+      </tr>
+     
+    </tbody>
+</table>
