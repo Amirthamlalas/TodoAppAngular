@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AddTodoComponent {
 
+  userid=""
+  id=""
+  title=""
+  status=""
+
+  todo=()=>{
+    let data:any={
+      "userid":this.userid,
+      "id": this.id,
+      "title":this.title,
+      "status":this.status
+      
+    }
+    console.log(data)
+  }
+
 }
